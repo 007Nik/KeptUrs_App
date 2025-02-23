@@ -1,0 +1,20 @@
+.carousel-container {
+    @apply relative w-screen h-screen flex justify-center items-center bg-gray-900 text-white overflow-hidden;
+  }
+  
+  .carousel-bubble {
+    @apply absolute text-center text-lg font-semibold bg-gray-700 px-6 py-4 rounded-full shadow-lg w-48 h-48 flex justify-center items-center transition-all duration-500;
+  }
+  
+  .depth-0 { @apply z-10 opacity-50 scale-75; }
+  .depth-1 { @apply z-20 opacity-75 scale-100; }
+  .depth-2 { @apply z-40 scale-150; }
+  .depth-3 { @apply z-20 opacity-75 scale-100; }
+  .depth-4 { @apply z-10 opacity-50 scale-75; }
+  
+  .pos-0 { @apply translate-x-[-450px] translate-y-20; }
+  .pos-1 { @apply translate-x-[-225px] translate-y-10; }
+  .pos-2 { @apply translate-x-0 translate-y-0; }
+  .pos-3 { @apply translate-x-[225px] translate-y-10; }
+  .pos-4 { @apply translate-x-[450px] translate-y-20; }
+  
